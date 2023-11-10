@@ -1,0 +1,209 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:  hsl(0, 0%, 81%);
+    background-image: url();
+}
+.grid{
+    margin: 7rem;
+    width: 90%;
+    height: 80rem;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color:  hsl(210, 46%, 95%);
+    grid-template-columns: 30rem 30rem 30rem 30rem;
+    grid-template-rows: 31rem 31rem;
+    grid-auto-rows: minmax(30rem,62rem);
+    grid-auto-columns: minmax(25rem,60rem);
+   
+   
+}
+#grid-item2{
+    margin-left: 2rem;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+#grid-item4{
+    margin-top: 1rem;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#grid-item3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#grid-item5{
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+.box1{
+    padding: 2rem;
+}
+.daniel{
+   
+    height: 30em;
+    width: 60em;
+    border-radius: 1rem;
+ background-color: hsl(263, 55%, 52%) ;
+
+}
+.profil{
+    display: flex;
+    color: white;
+    align-items: center;
+}
+.per-image{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-daniel.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.per-image2{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-jonathan.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.per-image3{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-kira.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.per-image4{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-jeanette.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.per-image5{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-patrick.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+
+
+.info{
+    margin-left: 1rem;
+}
+.per-name{
+     font-weight: 800;
+}
+.position{
+    opacity: 50%;
+}
+.bio{
+    padding-top: 1rem;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: white;
+}
+.describe{
+    opacity: 70%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.Jonathan{
+    width: 25rem;
+    height: 30rem;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 35%);
+}
+.per2-image{
+    width: 5rem;
+    height: 5rem;
+    background-image: url("images/image-jonathan.jpg");
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.kira-whittle{
+    height: 62rem;
+    width: 25rem;
+    background-color: white;
+}
+
+.profil2{
+    display: flex;
+    color: black;
+    align-items: center;
+}
+
+.bio2{
+    padding-top: 1rem;
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: black;
+}
+.describe2{
+    opacity: 70%;
+    color: black;
+}
+
+
+
+
+
+.jannet-harmon{
+    width: 25rem;
+    height: 30rem;
+    border-radius: 10px;
+    background-color: white;
+}
+.Patrick{
+    height: 30rem;
+    width: 57rem;
+    border-radius: 10px;
+    background-color: hsl(219, 29%, 14%) ;
+
+}
+
+@media (max-width:600px){
+    html{
+        font-size: 32.5%;
+    }
+    .grid{
+        margin: 7rem;
+        width: 90%;
+        height: 200%;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        background-color:  hsl(210, 46%, 95%);
+        grid-template-columns: 50rem ;
+        grid-template-rows: 31rem 31rem;
+   
+       
+       
+    }
+    .daniel{
+   
+        height: 50rem;
+        width: 30rem;
+        border-radius: 1rem;
+     background-color: hsl(263, 55%, 52%) ;
+    
+    }
+}
